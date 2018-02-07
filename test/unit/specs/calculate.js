@@ -15,7 +15,7 @@ describe("calculate", function() {
     expect(10).toEqual(add(1, 9))
   })
 
-  it("Add numbers", function() {
+  it("Add numbers float", function() {
     expect(4.9).toEqual(add(3.1, 1.8))
   })
 });
